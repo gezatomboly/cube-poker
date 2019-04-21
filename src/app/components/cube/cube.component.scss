@@ -1,0 +1,28 @@
+@import '../../../assets/colors';
+
+.Cube_container {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Cube_value {
+
+  font: 30px bold;
+
+  &_red {
+    color: $red;
+  }
+
+  &_blue {
+    color: $blue;
+  }
+
+  &_black {
+    color: $black;
+  }
+}
